@@ -11,6 +11,14 @@ namespace StackExchangeTest
     {
         static void Main(string[] args)
         {
+
+            //ThreadExample.PrintOddEvenNumber();
+            //ThreadExamplea.PrintNumber(5);
+
+            ProgramF.MainF();
+            Console.ReadKey();
+            return;
+
             List<Student> stus = new List<Student>();
             for (int i = 0;i < 100000;i++)
             {
